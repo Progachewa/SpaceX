@@ -1,12 +1,14 @@
 body{
     background-color: #000;
-    font-family: 'Arial','erdana','sans-serif';
+    font-family: 'Arial','Verdana','sans-serif';
     overflow-x: hidden;
     margin: 0 -10px;
+    color: #fff;
 }
 
 a{
     color: #fff;
+    cursor: pointer;
 }
 
 #mainHeader{
@@ -17,7 +19,6 @@ a{
     height: 657px;
     background-position: top;
     background-repeat: no-repeat;
-    color:#fff;
 }
 /*navigation bar left side*/
 .logo{
@@ -68,7 +69,6 @@ a{
 }
 /*first section*/
 .mainPageSource{
-    color: #fff;
     font-size: 50px;
 }
 .titlePage{
@@ -99,7 +99,6 @@ a{
 }
 
 .firstStatisticsNumber, .secondStatisticsNumber, .thirdStatisticsNumber{
-    color: #fff;
     height: 250px;
     width: 30%;
     display: inline-block;
@@ -112,7 +111,6 @@ a{
 /*third section*/
 .detailsMainPage{
     background-image: url('Images/secondImage.jpg');
-    color: #fff;
     width: 100%;
     height: 657px;
     text-align: left;
@@ -123,8 +121,87 @@ a{
     width: 550px;
     height: 200px;
     font: 20px/20px 'Arial','Verdana','sans-serif';
-
 }
+
 .styledTextInformation{
     line-height: 40px;
+}
+/*fourth section*/
+.moreDetailsMianPage{
+    background-image: url('Images/thirdImage.jpg');
+    height: 657px;
+    width: 100%;
+}
+
+.titleSection{
+    margin-left: 50px;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    margin-top: 70px;
+}
+
+ .subtitleSection{
+     margin-top: 15px;
+     display: block;
+     font: 50px/50px 'Arial','Verdana','sans-serif';
+ }
+/*table fourth section*/
+ .parameters{
+    border-collapse: collapse;
+    width: 550px;
+ }
+
+ td{
+    border-bottom: 1px solid white;
+    line-height: 50px;
+ }
+
+ .tableParameters{
+    padding-top: 200px;
+    margin-left: 50px;
+ }
+
+.parametersStyle{
+    text-align: right;
+ }
+
+ .parametersDetails{
+    opacity: 0.5;
+ }
+ 
+.footerSection{
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 50px;
+    width: 90%;
+}
+
+.previousPageLink .nextPageLink .similarLinks{
+    height: 50px;
+    width: 10%;
+}
+
+.previousPageLink{
+    position: absolute;
+}
+
+.similarLinks{
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.redirectedLinks{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.nextPageLink{
+    text-align: right;
+    display: inline-block;
+    margin-left: 375px;
 }
