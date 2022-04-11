@@ -179,6 +179,12 @@ td {
   height: 50px;
   width: 90%;
 }
+.footerSection .redirectedLinks {
+  background-color: #808080;
+}
+.footerSection .redirectedLinks:hover {
+  background-color: #fff;
+}
 .previousPageLink .nextPageLink .similarLinks {
   height: 50px;
   width: 10%;
@@ -196,7 +202,6 @@ td {
   width: 8px;
   height: 8px;
   border-radius: 100%;
-  background-color: #fff;
   display: inline-block;
 }
 .nextPageLink {
