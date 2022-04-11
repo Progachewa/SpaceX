@@ -12,14 +12,6 @@ body {
   margin: 0 -10px;
   color: #fff;
 }
-a:link {
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
-a:hover {
-  text-decoration: underline;
-}
 #mainHeader {
   width: 70%;
   height: 150px;
@@ -28,6 +20,14 @@ a:hover {
   height: 657px;
   background-position: top;
   background-repeat: no-repeat;
+}
+#mainHeader a:link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+#mainHeader a:link:hover {
+  text-decoration: underline;
 }
 /*navigation bar left side*/
 .logo {
@@ -39,9 +39,9 @@ a:hover {
   text-transform: uppercase;
   font-family: 'dinBold', 'Arial', 'Verdana', sans-serif;
   display: inline-block;
+  font-size: 14px;
   margin-left: 20px;
   margin-top: 50px;
-  font-size: 14px;
 }
 .mainNavigation {
   height: 150px;
@@ -68,12 +68,12 @@ a:hover {
   background-color: white;
 }
 .linkBarRight {
-  font-family: 'dinBold', 'Arial', 'Verdana', sans-serif;
   text-transform: uppercase;
+  font-family: 'dinBold', 'Arial', 'Verdana', sans-serif;
   display: inline-block;
+  font-size: 14px;
   margin-top: 60px;
   padding-left: 20px;
-  font-size: 14px;
 }
 /*first section*/
 .mainPageSource {
@@ -192,9 +192,10 @@ td {
   margin-top: 30px;
 }
 .redirectedLinks {
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
+  margin: 0 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
   background-color: #fff;
   display: inline-block;
 }
